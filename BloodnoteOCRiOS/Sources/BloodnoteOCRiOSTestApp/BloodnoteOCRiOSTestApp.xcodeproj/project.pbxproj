@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814AFDA12A03DB0E0085D2A3 /* BloodnoteOCRiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 814AFDA02A03DB0E0085D2A3 /* BloodnoteOCRiOS */; };
+		81C965062A03D28B00A5D26B /* BloodnoteOCRiOSTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C965052A03D28B00A5D26B /* BloodnoteOCRiOSTestAppApp.swift */; };
+		81C965082A03D28B00A5D26B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C965072A03D28B00A5D26B /* ContentView.swift */; };
+		81C9650A2A03D28D00A5D26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C965092A03D28D00A5D26B /* Assets.xcassets */; };
+		81C9650D2A03D28D00A5D26B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C9650C2A03D28D00A5D26B /* Preview Assets.xcassets */; };
+		81C965172A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C965162A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.swift */; };
+		81C965212A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C965202A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.swift */; };
+		81C965232A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C965222A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C965132A03D28D00A5D26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C964FA2A03D28B00A5D26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C965012A03D28B00A5D26B;
+			remoteInfo = BloodnoteOCRiOSTestApp;
+		};
+		81C9651D2A03D28D00A5D26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C964FA2A03D28B00A5D26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C965012A03D28B00A5D26B;
+			remoteInfo = BloodnoteOCRiOSTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		814AFD9E2A03DAF40085D2A3 /* BloodnoteOCRiOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BloodnoteOCRiOS; path = ../..; sourceTree = "<group>"; };
+		81C965022A03D28B00A5D26B /* BloodnoteOCRiOSTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodnoteOCRiOSTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C965052A03D28B00A5D26B /* BloodnoteOCRiOSTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodnoteOCRiOSTestAppApp.swift; sourceTree = "<group>"; };
+		81C965072A03D28B00A5D26B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81C965092A03D28D00A5D26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C9650C2A03D28D00A5D26B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81C965122A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodnoteOCRiOSTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C965162A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodnoteOCRiOSTestAppTests.swift; sourceTree = "<group>"; };
+		81C9651C2A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodnoteOCRiOSTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C965202A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodnoteOCRiOSTestAppUITests.swift; sourceTree = "<group>"; };
+		81C965222A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodnoteOCRiOSTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C964FF2A03D28B00A5D26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814AFDA12A03DB0E0085D2A3 /* BloodnoteOCRiOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9650F2A03D28D00A5D26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C965192A03D28D00A5D26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814AFD9F2A03DB0E0085D2A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81C964F92A03D28B00A5D26B = {
+			isa = PBXGroup;
+			children = (
+				814AFD9E2A03DAF40085D2A3 /* BloodnoteOCRiOS */,
+				81C965042A03D28B00A5D26B /* BloodnoteOCRiOSTestApp */,
+				81C965152A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests */,
+				81C9651F2A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests */,
+				81C965032A03D28B00A5D26B /* Products */,
+				814AFD9F2A03DB0E0085D2A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81C965032A03D28B00A5D26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C965022A03D28B00A5D26B /* BloodnoteOCRiOSTestApp.app */,
+				81C965122A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.xctest */,
+				81C9651C2A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C965042A03D28B00A5D26B /* BloodnoteOCRiOSTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				81C965052A03D28B00A5D26B /* BloodnoteOCRiOSTestAppApp.swift */,
+				81C965072A03D28B00A5D26B /* ContentView.swift */,
+				81C965092A03D28D00A5D26B /* Assets.xcassets */,
+				81C9650B2A03D28D00A5D26B /* Preview Content */,
+			);
+			path = BloodnoteOCRiOSTestApp;
+			sourceTree = "<group>";
+		};
+		81C9650B2A03D28D00A5D26B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81C9650C2A03D28D00A5D26B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81C965152A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C965162A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.swift */,
+			);
+			path = BloodnoteOCRiOSTestAppTests;
+			sourceTree = "<group>";
+		};
+		81C9651F2A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C965202A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.swift */,
+				81C965222A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITestsLaunchTests.swift */,
+			);
+			path = BloodnoteOCRiOSTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C965012A03D28B00A5D26B /* BloodnoteOCRiOSTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C965262A03D28D00A5D26B /* Build configuration list for PBXNativeTarget "BloodnoteOCRiOSTestApp" */;
+			buildPhases = (
+				81C964FE2A03D28B00A5D26B /* Sources */,
+				81C964FF2A03D28B00A5D26B /* Frameworks */,
+				81C965002A03D28B00A5D26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodnoteOCRiOSTestApp;
+			packageProductDependencies = (
+				814AFDA02A03DB0E0085D2A3 /* BloodnoteOCRiOS */,
+			);
+			productName = BloodnoteOCRiOSTestApp;
+			productReference = 81C965022A03D28B00A5D26B /* BloodnoteOCRiOSTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C965112A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C965292A03D28D00A5D26B /* Build configuration list for PBXNativeTarget "BloodnoteOCRiOSTestAppTests" */;
+			buildPhases = (
+				81C9650E2A03D28D00A5D26B /* Sources */,
+				81C9650F2A03D28D00A5D26B /* Frameworks */,
+				81C965102A03D28D00A5D26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C965142A03D28D00A5D26B /* PBXTargetDependency */,
+			);
+			name = BloodnoteOCRiOSTestAppTests;
+			productName = BloodnoteOCRiOSTestAppTests;
+			productReference = 81C965122A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C9651B2A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C9652C2A03D28D00A5D26B /* Build configuration list for PBXNativeTarget "BloodnoteOCRiOSTestAppUITests" */;
+			buildPhases = (
+				81C965182A03D28D00A5D26B /* Sources */,
+				81C965192A03D28D00A5D26B /* Frameworks */,
+				81C9651A2A03D28D00A5D26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C9651E2A03D28D00A5D26B /* PBXTargetDependency */,
+			);
+			name = BloodnoteOCRiOSTestAppUITests;
+			productName = BloodnoteOCRiOSTestAppUITests;
+			productReference = 81C9651C2A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C964FA2A03D28B00A5D26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					81C965012A03D28B00A5D26B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					81C965112A03D28D00A5D26B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 81C965012A03D28B00A5D26B;
+					};
+					81C9651B2A03D28D00A5D26B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 81C965012A03D28B00A5D26B;
+					};
+				};
+			};
+			buildConfigurationList = 81C964FD2A03D28B00A5D26B /* Build configuration list for PBXProject "BloodnoteOCRiOSTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C964F92A03D28B00A5D26B;
+			productRefGroup = 81C965032A03D28B00A5D26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C965012A03D28B00A5D26B /* BloodnoteOCRiOSTestApp */,
+				81C965112A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests */,
+				81C9651B2A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C965002A03D28B00A5D26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9650D2A03D28D00A5D26B /* Preview Assets.xcassets in Resources */,
+				81C9650A2A03D28D00A5D26B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C965102A03D28D00A5D26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9651A2A03D28D00A5D26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C964FE2A03D28B00A5D26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C965082A03D28B00A5D26B /* ContentView.swift in Sources */,
+				81C965062A03D28B00A5D26B /* BloodnoteOCRiOSTestAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9650E2A03D28D00A5D26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C965172A03D28D00A5D26B /* BloodnoteOCRiOSTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C965182A03D28D00A5D26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C965232A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITestsLaunchTests.swift in Sources */,
+				81C965212A03D28D00A5D26B /* BloodnoteOCRiOSTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C965142A03D28D00A5D26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C965012A03D28B00A5D26B /* BloodnoteOCRiOSTestApp */;
+			targetProxy = 81C965132A03D28D00A5D26B /* PBXContainerItemProxy */;
+		};
+		81C9651E2A03D28D00A5D26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C965012A03D28B00A5D26B /* BloodnoteOCRiOSTestApp */;
+			targetProxy = 81C9651D2A03D28D00A5D26B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81C965242A03D28D00A5D26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81C965252A03D28D00A5D26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C965272A03D28D00A5D26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloodnoteOCRiOSTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KM42VYU5F9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tymoteuszstokarski.BloodnoteOCRiOSTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C965282A03D28D00A5D26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloodnoteOCRiOSTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KM42VYU5F9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tymoteuszstokarski.BloodnoteOCRiOSTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81C9652A2A03D28D00A5D26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM42VYU5F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tymoteuszstokarski.BloodnoteOCRiOSTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodnoteOCRiOSTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloodnoteOCRiOSTestApp";
+			};
+			name = Debug;
+		};
+		81C9652B2A03D28D00A5D26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM42VYU5F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tymoteuszstokarski.BloodnoteOCRiOSTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodnoteOCRiOSTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloodnoteOCRiOSTestApp";
+			};
+			name = Release;
+		};
+		81C9652D2A03D28D00A5D26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM42VYU5F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tymoteuszstokarski.BloodnoteOCRiOSTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodnoteOCRiOSTestApp;
+			};
+			name = Debug;
+		};
+		81C9652E2A03D28D00A5D26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM42VYU5F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tymoteuszstokarski.BloodnoteOCRiOSTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodnoteOCRiOSTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C964FD2A03D28B00A5D26B /* Build configuration list for PBXProject "BloodnoteOCRiOSTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C965242A03D28D00A5D26B /* Debug */,
+				81C965252A03D28D00A5D26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C965262A03D28D00A5D26B /* Build configuration list for PBXNativeTarget "BloodnoteOCRiOSTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C965272A03D28D00A5D26B /* Debug */,
+				81C965282A03D28D00A5D26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C965292A03D28D00A5D26B /* Build configuration list for PBXNativeTarget "BloodnoteOCRiOSTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9652A2A03D28D00A5D26B /* Debug */,
+				81C9652B2A03D28D00A5D26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C9652C2A03D28D00A5D26B /* Build configuration list for PBXNativeTarget "BloodnoteOCRiOSTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9652D2A03D28D00A5D26B /* Debug */,
+				81C9652E2A03D28D00A5D26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		814AFDA02A03DB0E0085D2A3 /* BloodnoteOCRiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BloodnoteOCRiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 81C964FA2A03D28B00A5D26B /* Project object */;
+}
