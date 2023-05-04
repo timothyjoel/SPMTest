@@ -1,3 +1,3 @@
-# BloodnoteOCRiOS
+# BloodnoteOCRPack
 
 A description of this package.
